@@ -1,4 +1,4 @@
-A1, a Minimal and Responsive Theme for Anchor CMS
+A1, a Responsive Theme for Anchor CMS
 ========
 
 Info:
