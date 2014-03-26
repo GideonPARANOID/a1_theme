@@ -57,7 +57,38 @@ section.post-image {
 }
 
 section.post-text {
-	padding-top: 20px;
+	padding-bottom: 20px;
+}
+section.post-text img {
+   width: 100%;
+}
+section.post-text blockquote {
+   margin-left : -25px;
+   padding-left : 20px;
+   border-left : 1px #B7B7B7 solid;
+}
+section.post-text code {
+   font-size: .8em; 
+   font-family: courier !important;
+   color : black;
+
+   background: #EEEEEE;
+
+   margin: -3px;
+   padding: 1px;
+}
+section.post-text pre code {
+   display: block;
+   margin: -5px;
+   padding: 10px;
+}
+section.post-text li {
+   font-family: Domine, sans-serif;
+   font-size: 13px;
+   color: #575757;
+   line-height: 20px;
+   clear: both;
+   float: none;
 }
 
 section.page-text {
@@ -70,7 +101,6 @@ section.post-image img {
 	left: 50%;
 	width: 100%;
 }
-
 
 nav.main-nav ul {
 	list-style: none;
