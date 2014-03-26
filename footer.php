@@ -4,8 +4,8 @@
 			
 			<nav class="pageination">
 			
-			<a href="<?php echo posts_prev(); ?>">&#8592;</a>
-			<a href="<?php echo posts_next(); ?>">&#8594;</a>
+			<?php echo posts_prev(); ?>
+         <?php echo posts_next(); ?>
 			
 			</nav>
 			
