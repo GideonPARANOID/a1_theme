@@ -20,16 +20,17 @@
 		
 		<!-- Scripts -->
 		
-		<script src="<?php echo theme_url('/assets/js/jquery.js'); ?>"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="<?php echo theme_url('/assets/js/main.js'); ?>"></script>
-	
+      <?php include_once("analytics.php") ?>
+
 	</head>
 	
 	<body>
 	
 		<header class="main-header">
 		
-			<h1><?php echo site_name(); ?></h1>
+			<h1><a href='/'><?php echo site_name(); ?></a></h1>
 			
 			<?php if(has_menu_items()): ?>
 			
