@@ -14,7 +14,7 @@
 			
 				<a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><h3><?php echo article_title(); ?></h3></a>
 				
-				<time>Posted: <?php echo article_date(); ?></time>
+				<span class="time">Posted: <?php echo article_date(); ?></span>
 				
 				<div style="clear:both;"></div>
 				
@@ -22,7 +22,7 @@
 				
 				<section class="post-image">
 					
-					<img src="<?php echo article_custom_field('post_image',''); ?>" />
+					<img src="<?php echo article_custom_field('post_image',''); ?>" alt="Post header image" />
 				
 				</section>
 						

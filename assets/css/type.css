@@ -68,7 +68,8 @@ nav ul li a:hover {
 	border-bottom: 1px #1B1B1B solid;
 }
 
-time {
+.time {
+   display : block;
 	clear: both;
 	float: left;
 	font-family: Domine, serif;
