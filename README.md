@@ -1,19 +1,16 @@
-A1, a Responsive Theme for Anchor CMS
-========
+# A1, a Responsive Theme for Anchor CMS
 
-Info:
---------
 
-Designed & Developed by: [Laurens Martin](http://laurensmartin.com)
-Live demo: http://blog.laurensmartin.com
+## Info
 
-Further work by: [Gideon MW Jones](http://gideonjon.es)
+* Designed & Developed by: [Laurens Martin](http://laurensmartin.com).
+* Further work by: [Gideon MW Jones](http://gideonjon.es)
 
-Settings:
---------
+## Settings
 
-To have the theme work correctly after install, you have to create one custom field:
+To have the theme work correctly after install, you have to create a custom field:
 
+| Key   | Value      |
 |:------|:-----------|
 | Type  | Post       |
 | Field | Image      |
