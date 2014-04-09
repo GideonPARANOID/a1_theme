@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="<?php echo theme_url('/assets/type/edmondsans-medium.css'); ?>" />
 		<link href='http://fonts.googleapis.com/css?family=Domine:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="<?php echo theme_url('/assets/css/main.css'); ?>" />
-		<link rel="stylesheet" href="<?php echo theme_url('assets/css/type.css'); ?>" />
+		<link rel="stylesheet" href="<?php echo theme_url('/assets/css/type.css'); ?>" />
 		<link rel='stylesheet' media='screen and (max-width: 700px)' href="<?php echo theme_url('/assets/css/mobile.css'); ?>" />
 		
 		<!-- Scripts -->
