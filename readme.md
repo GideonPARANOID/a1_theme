@@ -1,4 +1,4 @@
-# A1, a Responsive Theme for Anchor CMS
+# A2, a Responsive Theme for Anchor CMS
 
 
 ## Info
@@ -17,6 +17,11 @@ To have the theme work correctly after install, you have to create a custom fiel
 | Key   | post_image |
 | Label | Post Image |
 
-For Twitter sharing integration, also add the site variable `twitter` with the value set to your Twitter name.
+### Twitter 
 
-For tracking, paste your Google Analytics tracking code snippet in `analytics.php`.
+For sharing integration, also add the site variable `twitter` with the value set to your Twitter name.
+
+### Analytics
+
+Paste your Google Analytics tracking code snippet in `analytics.php`.
+
