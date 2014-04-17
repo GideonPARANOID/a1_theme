@@ -1,19 +1,17 @@
-<?php theme_include('header'); ?>
+<?php 
 
-<section class="main-content">
-			
-			<article>
-				
-				<header class="post-header">
-			
-				<h3>404: Page not found</h3>
-				
-				<div style="clear:both;"></div>
-				
-				</header>
-			
-			</article>
-			
-		</section>
-		
-<?php theme_include('footer'); ?>
+   theme_include('header'); 
+
+?>
+<section class='main'>
+   <article>	
+	   <header class='post'>
+      	<h3>404: Page not found</h3>
+			</header>
+		</article>
+	</section>		
+<?php 
+
+   theme_include('footer'); 
+
+?>

@@ -1,99 +1,100 @@
-h1, h2 {
-	font-family: Domine, sans-serif;
-	font-size: 17px;
-	color: #1B1B1B;
-	font-weight: normal;
-	position: relative;
-	height: 17px;
+h1, 
+h2 {
+   font-family : Domine, sans-serif;
+   font-size : 17px;
+   color : #1b1b1b;
+   font-weight : normal;
+   position : relative;
+   height : 17px;
 }
 
 h2 {
-	font-size: 14px;
+   font-size : 14px;
 }
 
 h3 {
-	font-family: EdmondsansMedium, sans-serif;
-	font-size: 17px;
-	color: #1B1B1B;
-	font-weight: normal;
-	float: left;
-	border-bottom: 2px #1B1B1B solid;
-	padding-bottom: 5px;
-	margin-bottom: 15px;
-	line-height: 25px;
+   font-family : EdmondsansMedium, sans-serif;
+   font-size : 17px;
+   color : #1b1b1b;
+   font-weight : normal;
+   float : left;
+   border-bottom : 2px #1b1b1b solid;
+   padding-bottom : 5px;
+   margin-bottom : 15px;
+   line-height : 25px;
 }
 
-header.main-header h1 a {
-	color: #1B1B1B;
-	text-decoration: none;
+body > header h1 a {
+   color : #1b1b1b;
+   text-decoration : none;
 }
 
-header.post-header a {
-	color: #1B1B1B;
-	text-decoration: none;
+.post header a {
+   color : #1b1b1b;
+   text-decoration : none;
 }
 
-header.post-header h3:hover {
-	color: #515151;
-	border-bottom: 2px #515151 solid;
+.post header h3:hover {
+   color : #515151;
+   border-bottom : 2px #515151 solid;
 }
 
 p {
-	font-family: Domine, sans-serif;
-	font-size: 13px;
-	color: #575757;
-   margin-top: 10px;
-	margin-bottom: 15px;
-	line-height: 25px;
-	clear: both;
-	float: none;
+   font-family : Domine, sans-serif;
+   font-size : 13px;
+   color : #575757;
+   margin-top : 10px;
+   margin-bottom : 15px;
+   line-height : 25px;
+   clear : both;
+   float : none;
 }
 
 nav ul li {
-	display: inline;
-	margin-right: 20px;
-	font-size: 15Px;
-	font-family: Domine, sans-serif;
-	padding-bottom: 3px;
+   display : inline;
+   margin-right : 20px;
+   font-size : 15Px;
+   font-family : Domine, sans-serif;
+   padding-bottom : 3px;
 }
 
 nav ul li a {
-	color: #8b8b8b;
-	text-decoration: none;
-	border-bottom: 1px #8B8B8B solid;
+   color : #8b8b8b;
+   text-decoration : none;
+   border-bottom : 1px #8b8b8b solid;
 }
 
 nav ul li a:hover {
-	color: #1B1B1B;
-	border-bottom: 1px #1B1B1B solid;
+   color : #1b1b1b;
+   border-bottom : 1px #1B1B1B solid;
 }
 
 .time {
    display : block;
-	clear: both;
-	float: left;
-	font-family: Domine, serif;
-	color: #8B8B8B;
-	font-size: 13px;
+   clear : both;
+   float : left;
+   font-family : Domine, serif;
+   color : #8b8b8b;
+   font-size : 13px;
 }
 
-nav.pageination a{
-	color: #1B1B1B;
-	text-decoration: none;
-	margin-right: 3px;
+body > footer nav a {
+   color : #1b1b1b;
+   text-decoration : none;
+   margin-right : 3px;
 }
 
-nav.pageination a:hover {
-	color: #888;
+body > footer a:hover {
+   color: #888888;
 }
 
 input, textarea {
-	color: #8B8B8B;
+   color : #8b8b8b;
 }
 
 input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-    outline: none;
+   outline : none;
 }

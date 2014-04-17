@@ -1,112 +1,128 @@
 * {
-	margin: 0;
-	padding: 0;
-}
-
-header.main-header, footer.main-footer {
-	width: 90%;
-	max-width: 650px;
-	margin: 75px auto 75px auto;
-}
-
-header.post-header {
-		margin-bottom: 75px;
-}
-
-header.page-header {
-	margin-bottom: 30px;
+   margin : 0;
+   padding : 0;
 }
 
 body {
-	background: #EBEBEB;
+   background: #ebebeb;
 }
 
-nav.main-nav {
-	margin-top: 20px;
+body > header,
+body > footer {
+   width : 90%;
+   max-width : 650px;
+   margin : 75px auto 75px auto;
 }
 
-section.main-content {
-	width: 90%;
-	max-width: 800px;
-	margin: 0 auto;
-	background: #fff;
+body > header nav {
+   margin-top : 20px;
 }
 
-div.main-content-inner {
-	margin: 0 75px 0 75px;
-	padding-bottom: 30px;
-	background: #fff;
+body > header nav ul {
+   list-style : none;
 }
 
-article {
-	position: relative;
-	padding: 75px 0 45px 0;
-	border-bottom: 1px #B7B7B7 solid;
+body > section {
+   width : 90%;
+   max-width : 800px;
+   margin : 0 auto;
+   background : #ffffff;
 }
 
-footer.post-footer {
-	padding: 50px 0 50px 0;
-	border-bottom: 1px #B7B7B7 solid;
-}	
-
-section.post-image {
-	margin-left: -75px;
-	height: 250px;
-	overflow: hidden;
-	position: relative;
+body > footer nav {
+   padding: 0 0 30px 0;
 }
 
-section.post-text {
-	padding-bottom: 20px;
+
+div.inner {
+   margin : 0 75px 0 75px;
+   padding-bottom : 30px;
+   background : #ffffff;
 }
-section.post-text img {
-   width: 100%;
+
+/* posts */
+
+.post {
+   position : relative;
+   padding : 75px 0 45px 0;
+   border-bottom : 1px #B7B7B7 solid;
 }
-section.post-text blockquote {
+
+.post:last-of-type {
+   padding : 75px 0 0 0;
+   border : none;
+}
+
+.post header {
+   margin-bottom : 100px;
+}
+
+.post section.image {
+   margin-left : -75px;
+   height : 250px;
+   overflow : hidden;
+   position : relative;
+}
+.post section.image img {
+   position : absolute;
+   top : 50%;
+   left : 50%;
+   width : 100%;
+}
+
+
+.post section.text {
+   padding : 25px 0 20px 0;
+
+}
+
+.post section.text img {
+   width : 100%;
+}
+
+.post section.text blockquote {
    margin-left : -25px;
    padding-left : 20px;
    border-left : 1px #B7B7B7 solid;
 }
-section.post-text code {
-   font-size: .8em; 
-   font-family: courier !important;
+.post section.text code {
+   margin : -3px;
+   padding : 1px;
+
+   font-size : .8em; 
+   font-family : courier !important;
    color : black;
 
-   background: #EEEEEE;
-
-   margin: -3px;
-   padding: 1px;
+   background : #eeeeee;
 }
-section.post-text pre code {
-   display: block;
-   margin: -5px;
-   padding: 10px;
+.post section.text pre code {
+   display : block;
+   margin : -5px;
+   padding : 10px;
 }
-section.post-text li {
-   font-family: Domine, sans-serif;
-   font-size: 13px;
-   color: #575757;
-   line-height: 20px;
-   clear: both;
-   float: none;
+.post section.text li {
+   font-family : Domine, sans-serif;
+   font-size : 13px;
+   color : #575757;
+   line-height : 20px;
+   clear : both;
+   float : none;
 }
 
-section.page-text {
-	padding: 0;
+.post section.text-share {
+   border-bottom : 1px #b7b7b7 solid;
+   padding-bottom : 50px;
 }
 
-section.post-image img {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 100%;
+.post footer {
+   padding : 50px 0 50px 0;
+   border-bottom : 1px #b7b7b7 solid;
+}	
+
+/* page */
+
+.page header {
+   margin-bottom : 30px;
 }
 
-nav.main-nav ul {
-	list-style: none;
-}
-
-nav.pageination {
-	padding: 0 0 30px 0;
-}
 

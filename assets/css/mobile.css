@@ -1,11 +1,12 @@
-div.main-content-inner {
-	margin: 0 35px 20px 35px;
+div.inner {
+   margin : 0 35px 20px 35px;
 }
 
-article {
-	padding: 50px 0 45px 0;
+.post {
+   padding : 50px 0 45px 0;
 }
 
-section.post-image {
-	margin-left: -35px;
+.post section.image {
+   margin-left : -35px;
 }
+
