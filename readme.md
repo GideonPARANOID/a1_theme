@@ -18,10 +18,10 @@ To have the theme work correctly after install, you have to create a custom fiel
 | Label | Post Image |
 
 
-| Key       | Value                          |
-|:----------|:-------------------------------|
-| twitter   | <twitter name>                 |
-| analytics | <google analytics tracking js> |
+| Key       | Value description            |
+|:----------|:-----------------------------|
+| twitter   | Twitter name                 |
+| analytics | Google Analytics tracking js |
 
 * Do not include the '@' for Twitter.
 * Include script tags for the analytics.
