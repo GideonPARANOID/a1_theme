@@ -7,14 +7,12 @@
 
       <title><?php echo site_name(); ?> | <?php echo page_title('Page can’t be found'); ?></title>
 
-      <link rel='stylesheet' href='<?php echo theme_url('/assets/type/edmondsans-medium.css'); ?>' />
       <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Domine:400,700' type='text/css'>
-      <link rel='stylesheet' href='<?php echo theme_url('/assets/css/main.css'); ?>' />
-      <link rel='stylesheet' href='<?php echo theme_url('/assets/css/type.css'); ?>' />
-      <link rel='stylesheet' media='screen and (max-width: 700px)' href='<?php echo theme_url('/assets/css/mobile.css'); ?>' />
+      <link rel='stylesheet' href='<?php echo theme_url('/assets/main.css'); ?>' />
+      <link rel='stylesheet' media='screen and (max-width: 700px)' href='<?php echo theme_url('/assets/mobile.css'); ?>' />
 				
       <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
-      <script src='<?php echo theme_url('/assets/js/main.js'); ?>'></script>
+      <script src='<?php echo theme_url('/assets/main.js'); ?>'></script>
 <?php 
    theme_include('analytics'); 
 ?>

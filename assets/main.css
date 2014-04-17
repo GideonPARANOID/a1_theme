@@ -1,0 +1,239 @@
+@font-face {
+   font-family: 'EdmondsansMedium';
+   src: url('type/edmondsans-medium.eot');
+   src: url('type/edmondsans-medium.eot') format('embedded-opentype'),
+      url('type/edmondsans-medium.woff') format('woff'),
+      url('type/edmondsans-medium.ttf') format('truetype'),
+      url('type/edmondsans-medium.svg#EdmondsansMedium') format('svg');
+}
+
+/* general */
+
+* {
+   margin : 0;
+   padding : 0;
+}
+
+body {
+   background: #ebebeb;
+}
+
+body > header,
+body > footer {
+   width : 90%;
+   max-width : 650px;
+   margin : 75px auto 75px auto;
+}
+
+body > header nav {
+   margin-top : 20px;
+}
+
+body > header nav ul {
+   list-style : none;
+}
+
+body > section {
+   width : 90%;
+   max-width : 800px;
+   margin : 0 auto;
+   background : #ffffff;
+}
+
+body > footer nav {
+   padding: 0 0 30px 0;
+}
+
+div.inner {
+   margin : 0 75px 0 75px;
+   padding-bottom : 30px;
+   background : #ffffff;
+}
+
+/* post */
+
+.post {
+   position : relative;
+   padding : 75px 0 45px 0;
+   border-bottom : 1px #B7B7B7 solid;
+}
+
+.post:last-of-type {
+   padding : 75px 0 0 0;
+   border : none;
+}
+
+.post header {
+   margin-bottom : 100px;
+}
+
+.post section.image {
+   margin-left : -75px;
+   height : 250px;
+   overflow : hidden;
+   position : relative;
+}
+.post section.image img {
+   position : absolute;
+   top : 50%;
+   left : 50%;
+   width : 100%;
+}
+
+.post section.text {
+   padding : 25px 0 20px 0;
+
+}
+
+.post section.text img {
+   width : 100%;
+}
+
+.post section.text blockquote {
+   margin-left : -25px;
+   padding-left : 20px;
+   border-left : 1px #B7B7B7 solid;
+}
+.post section.text code {
+   margin : -3px;
+   padding : 1px;
+
+   font-size : .8em; 
+   font-family : courier !important;
+   color : black;
+
+   background : #eeeeee;
+}
+.post section.text pre code {
+   display : block;
+   margin : -5px;
+   padding : 10px;
+}
+.post section.text li {
+   font-family : Domine, sans-serif;
+   font-size : 13px;
+   color : #575757;
+   line-height : 20px;
+   clear : both;
+   float : none;
+}
+
+.post section.text-share {
+   border-bottom : 1px #b7b7b7 solid;
+   padding-bottom : 50px;
+}
+
+.post footer {
+   padding : 50px 0 50px 0;
+   border-bottom : 1px #b7b7b7 solid;
+}	
+
+/* page */
+
+.page header {
+   margin-bottom : 30px;
+}
+
+/* font */
+
+body > header h1 a {
+   color : #1b1b1b;
+   text-decoration : none;
+}
+
+body > footer nav a {
+   color : #1b1b1b;
+   text-decoration : none;
+   margin-right : 3px;
+}
+
+body > footer a:hover {
+   color: #888888;
+}
+
+.post header a {
+   color : #1b1b1b;
+   text-decoration : none;
+}
+
+.post header h3:hover {
+   color : #515151;
+   border-bottom : 2px #515151 solid;
+}
+
+input, textarea {
+   color : #8b8b8b;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+   outline : none;
+}
+
+h1, 
+h2 {
+   font-family : Domine, sans-serif;
+   font-size : 17px;
+   color : #1b1b1b;
+   font-weight : normal;
+   position : relative;
+   height : 17px;
+}
+
+h2 {
+   font-size : 14px;
+}
+
+h3 {
+   font-family : EdmondsansMedium, sans-serif;
+   font-size : 17px;
+   color : #1b1b1b;
+   font-weight : normal;
+   float : left;
+   border-bottom : 2px #1b1b1b solid;
+   padding-bottom : 5px;
+   margin-bottom : 15px;
+   line-height : 25px;
+}
+
+p {
+   font-family : Domine, sans-serif;
+   font-size : 13px;
+   color : #575757;
+   margin-top : 10px;
+   margin-bottom : 15px;
+   line-height : 25px;
+   clear : both;
+   float : none;
+}
+
+nav ul li {
+   display : inline;
+   margin-right : 20px;
+   font-size : 15Px;
+   font-family : Domine, sans-serif;
+   padding-bottom : 3px;
+}
+
+nav ul li a {
+   color : #8b8b8b;
+   text-decoration : none;
+   border-bottom : 1px #8b8b8b solid;
+}
+
+nav ul li a:hover {
+   color : #1b1b1b;
+   border-bottom : 1px #1B1B1B solid;
+}
+
+.time {
+   display : block;
+   clear : both;
+   float : left;
+   font-family : Domine, serif;
+   color : #8b8b8b;
+   font-size : 13px;
+}
+
