@@ -52,13 +52,15 @@ div.inner {
 
 /* post */
 
-.post {
+.post, 
+.page {
    position : relative;
    padding : 75px 0 45px 0;
    border-bottom : 1px #B7B7B7 solid;
 }
 
-.post:last-of-type {
+.post:last-of-type,
+.page:last-of-type {
    padding : 75px 0 0 0;
    border : none;
 }
