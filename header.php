@@ -20,10 +20,26 @@
    <body>
       <header>
          <h1><a href='/'><?php echo site_name(); ?></a></h1>
-<?php 
+<?php
+   if (categories() && site_meta('categories')) {
+?>
+         <nav>
+            <ul>
+<?php
+      while (categories()) {
+?>
+               <li><a href='<?php echo category_url(); ?>'><?php echo category_title(); ?></a></li>
+<?php
+      }
+?>
+            </ul>
+         </nav>
+<?php
+   }
+
    if (has_menu_items()) { 
 ?>	
-         <nav class='main'>			
+         <nav>			
             <ul>
 <?php 
       while (menu_items()) {
