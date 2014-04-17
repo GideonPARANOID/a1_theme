@@ -15,7 +15,9 @@
 				
       <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
       <script src='<?php echo theme_url('/assets/js/main.js'); ?>'></script>
-      <?php include_once('analytics.php'); ?>
+<?php 
+   theme_include('analytics'); 
+?>
    </head>
    <body>
       <header>
