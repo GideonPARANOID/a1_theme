@@ -1,4 +1,4 @@
-Theme name: A1
+Theme name: A2
 Description: A minimal and responsive theme for Anchor.
-Author name: Laurens Martin
-Author site: http://laurensmartin.com
+Author name: Laurens Martin/Gideon MW Jones
+
