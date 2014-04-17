@@ -55,8 +55,8 @@ div.inner {
 .post, 
 .page {
    position : relative;
-   padding : 75px 0 45px 0;
-   border-bottom : 1px #B7B7B7 solid;
+   padding : 50px 0 20px 0;
+   border-bottom : 1px #b7b7b7 solid;
 }
 
 .post:last-of-type,
@@ -150,7 +150,7 @@ body > footer nav a {
 }
 
 body > footer a:hover {
-   color: #888888;
+   color : #888888;
 }
 
 .post header a {
@@ -209,6 +209,10 @@ p {
    line-height : 25px;
    clear : both;
    float : none;
+}
+
+ul {
+   margin : 10px auto;
 }
 
 nav ul li {

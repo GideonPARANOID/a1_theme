@@ -17,11 +17,11 @@ To have the theme work correctly after install, you have to create a custom fiel
 | Key   | post_image |
 | Label | Post Image |
 
-### Twitter 
 
-For sharing integration, also add the site variable `twitter` with the value set to your Twitter name.
+| Key       | Value                          |
+|:----------|:-------------------------------|
+| twitter   | <twitter name>                 |
+| analytics | <google analytics tracking js> |
 
-### Analytics
-
-Paste your Google Analytics tracking code snippet in `analytics.php`.
-
+* Do not include the '@' for Twitter.
+* Include script tags for the analytics.

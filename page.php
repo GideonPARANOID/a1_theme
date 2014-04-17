@@ -11,7 +11,12 @@
 <?php 
    echo page_content(); 
 ?>		
-			</section>
+         </section>
+         <footer>
+<?php
+   theme_include('share');   
+?>
+         </footer>
 		</article>
 	</div>
 </section>

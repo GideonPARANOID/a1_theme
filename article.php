@@ -18,9 +18,11 @@
    echo article_markdown(); 
 ?>
                </section>
+               <footer>
 <?php
    theme_include('share');
 ?>
+            </footer>
             </article>
          </div>
       </section>		

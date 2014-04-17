@@ -1,4 +1,3 @@
-         <footer>
 <?php 
    if (site_meta('twitter')) { 
 ?>            
@@ -18,4 +17,3 @@
 <?php
    }
 ?>
-         </footer>

@@ -14,7 +14,7 @@
       <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
       <script src='<?php echo theme_url('/assets/main.js'); ?>'></script>
 <?php 
-   theme_include('analytics'); 
+   echo site_meta('analytics') . PHP_EOL; 
 ?>
    </head>
    <body>

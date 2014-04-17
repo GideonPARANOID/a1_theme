@@ -31,7 +31,6 @@ function resize_image() {
    });
 }
 
-$(window).load(resize_image);
 
 $(window).resize(function() {
 
