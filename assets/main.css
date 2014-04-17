@@ -163,17 +163,6 @@ body > footer a:hover {
    border-bottom : 2px #515151 solid;
 }
 
-input, textarea {
-   color : #8b8b8b;
-}
-
-input:focus,
-select:focus,
-textarea:focus,
-button:focus {
-   outline : none;
-}
-
 h1, 
 h2 {
    font-family : Domine, sans-serif;
