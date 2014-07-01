@@ -13,7 +13,7 @@
                <section class='image'>
                   <img src='<?php echo article_custom_field('post_image', ''); ?>' />
                </section>
-               <section class='text-share'>
+               <section class='text share'>
 <?php 
    echo article_markdown(); 
 ?>

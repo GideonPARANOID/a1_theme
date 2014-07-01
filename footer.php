@@ -11,7 +11,7 @@
 <?php 
    }
 ?>
-         <h2>&#169; <?php echo date('Y'); ?> <?php echo site_name(); ?> | All Rights Reserved</h2>
+         <span id='rights'>&#169; <?php echo date('Y'); ?> <?php echo site_name(); ?> | All Rights Reserved</span>
       </footer>
    </body>
 </html>
